@@ -11,8 +11,6 @@ public class shortlong{
             if (word.length() > longestFirstWord.length()) {
                 longestFirstWord = word;
             }
-        }
-        for (String word : words) {
             if (word.length() <= shortestLastWord.length()) {
                 shortestLastWord = word;
             }
